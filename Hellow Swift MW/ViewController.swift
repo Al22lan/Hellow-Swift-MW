@@ -44,17 +44,18 @@ extension ViewController:UITextFieldDelegate
                     
         for (digit, letters) in elementsToConvert
         { applyiedString = applyiedString?.stringByReplacingOccurrencesOfString(digit, withString:letters )
-            textField.text = applyiedString// Vasya("AAAA",var2:"BBBB")
+            //textField.text = applyiedString// Vasya("AAAA",var2:"BBBB")
+            textField.text = Vasya("AAAA",var2:"BBBB")
         }
                     
         return false
           
     }
     
-//    func Vasya(var1: String, var2: String)->String
-//    {
-//     return var1+var2
-//    }
+    func Vasya(var1: String, var2: String)->String
+    {
+     return var1+var2
+    }
     
     
     
