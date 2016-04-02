@@ -46,6 +46,7 @@ extension ViewController:UITextFieldDelegate
         { applyiedString = applyiedString?.stringByReplacingOccurrencesOfString(digit, withString:letters )
             textField.text = applyiedString// Vasya("AAAA",var2:"BBBB")
         }
+                    
         return false
           
     }
